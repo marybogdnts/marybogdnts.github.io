@@ -1,0 +1,76 @@
+.lvl {
+    font-family: "Georgia";
+    color: grey;
+    text-indent: 20px;
+    font-size: 15px;
+
+}
+.tic{
+    font-family: "Georgia";
+    color: grey;
+    text-indent: 20px;
+    font-size: 15px;
+    width:140px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top:20px;
+
+    border: 1px solid #D8D8D8;
+    border-radius:10px;
+    background-color: white;
+   text-align:left;
+    backface-visibility: hidden;
+    transition: 0.5s;
+    transform: rotateY(180deg);
+}
+.container{
+    width:930px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top:20px;
+    box-shadow: 0px 0px 280px 0px black;
+    border: 1px solid #D8D8D8;
+    border-radius:10px;
+    background-color: white; 
+}
+big{
+
+    text-shadow: 2px 4px 3px rgba(217,200,217,1);
+    font-size: 30px;
+    font-family: "Georgia";
+    color: grey;
+}
+.fig {
+    width: 14%;
+    height: 18vh;
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.background_side_card {
+    backface-visibility: hidden;
+    transition: 0.5s;
+}
+
+.front_side_card {
+    backface-visibility: hidden;
+    transition: 0.5s;
+    transform: rotateY(180deg);
+}
+body{
+    background-image: url("fon.jpeg");
+}
+html{
+    overflow-y:scroll;
+}

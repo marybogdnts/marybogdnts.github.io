@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title> Переверни картинку </title>
+
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container"> <!-- Обычная структура Bootstrap -->
+    <div class="row">
+        <div class="col-md-12 cards">
+
+            <div align="center" class="lvl">
+                <p><big> Переверни Картинку </big></p>
+
+
+                <p>Перед вами находится сетка картинок, рубашками вверх. За один ход вы можете раскрыть две картинки.
+                    Если картинки окажутся разными, они снова скроются, а если в обеих открытых клетках будет одна и та же картинка,
+                    то эти картики исчезнут.
+                    Игра будет закончена, когда вы раскроете все клетки. Ваша задача - сделать это как можно быстрее.</p>
+
+
+                <p>Выбери тематику картинок</p>
+                <input type="radio" name="ra" value="Cats\"> Котики  </label><br>
+                <input type="radio" name="ra" value="Dogs\"> Собачки </label><br>
+                <input type="radio" name="ra" value="Lemur\"> Лемуры </label><br>
+                <input type="radio" name="ra" value="Owl\"> Совушки </label><br><br>
+
+                <p>Выбери количество картинок</p>
+                <input type="radio" name="dio" value="mal"> Мало  </label>
+                <input type="radio" name="dio" value="bol"> Чуть больше </label>
+                <input type="radio" name="dio" value="mn"> Много </label>
+
+               <br><br> <button id="start">Начать</button>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="tic">Время:<p id="timer"></p>
+    <button id="stop">Я закончил!</button></div>
+</body>
+
+</html>
